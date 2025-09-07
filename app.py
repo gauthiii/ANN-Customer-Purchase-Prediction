@@ -17,25 +17,25 @@ st.title("🛒 Customer Purchase Prediction")
 # -----------------------------
 model = tf.keras.models.load_model("purchasePredictionModel.h5")
 
-with open("label_encoder_gender.pkl", "rb") as f:
+with open("label_encoder_gender1.pkl", "rb") as f:
     label_encoder_gender = pickle.load(f)
 
-with open("onehot_encoder_product.pkl", "rb") as f:
+with open("onehot_encoder_product1.pkl", "rb") as f:
     onehot_encoder_product = pickle.load(f)
 
-with open("onehot_encoder_device.pkl", "rb") as f:
+with open("onehot_encoder_device1.pkl", "rb") as f:
     onehot_encoder_device = pickle.load(f)
 
-with open("onehot_encoder_region.pkl", "rb") as f:
+with open("onehot_encoder_region1.pkl", "rb") as f:
     onehot_encoder_region = pickle.load(f)
 
-with open("onehot_encoder_source.pkl", "rb") as f:
+with open("onehot_encoder_source1.pkl", "rb") as f:
     onehot_encoder_source = pickle.load(f)
 
-with open("onehot_encoder_segment.pkl", "rb") as f:
+with open("onehot_encoder_segment1.pkl", "rb") as f:
     onehot_encoder_segment = pickle.load(f)
 
-with open("scaler.pkl", "rb") as f:
+with open("scaler1.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # -----------------------------
